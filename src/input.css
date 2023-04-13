@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+
+    :root{
+        /* Colores del texto */
+        --transparent-white:hsla(0, 0%,100%,0.75);
+        --very-light-gray: hsl(0,0%,95%);
+    }
+    h1{
+        font-family: 'Big Shoulders Display', sans-serif;
+    }
+    p{
+        color: var(--transparent-white);
+    }
+    p, button{
+        font-family: 'Lexend Deca', sans-serif;
+    }
+    h1, button{
+        color: var(--very-light-gray);
+    }    
+
+}
